@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COMP 4651 Project Homepage</title>
+    <link rel="icon" href="./images/clouds.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <noscript>JavaScript is not enabled! Please enable JavaScript for this to work correctly.</noscript>
+    <script src="./bundle.js" type="module"></script>
+</head>
+<body class="main">
+    <div>
+        <h1 class="heading">COMP 4651 - Cloud Computing and Big Data Systems</h1>
+        <h1 class="heading">Spelling Bee</h1>
+        <img src="./images/bee.png" alt="A picture of a bee" style="display: block; margin-left: auto; margin-right: auto;">
+        <div style="text-align: center">
+            <p>A cartoon guard bee.</p>
+            <a href="https://commons.wikimedia.org/wiki/File:Guard_Bee.png" style="color: black;"><i>KatiZora, CC0, via Wikimedia Commons</i></a>
+        </div>
+    </div>
+    <div style="text-align: center; margin: 5vh auto;">
+        <div>
+            <audio class="audio-player" id="audio-player">
+                Your browser does not support audio players. Please use an alternative one that does!
+            </audio>
+            <button class="button" id="play-button">
+                Start!
+            </button>
+            <button class="button-no-click" id="playing-button">
+                Playing...
+            </button>
+            <button class="button" style="display: none;" id="next-button">
+                Next
+            </button>
+        </div>
+        <div>
+            <label for="typebox"></label>
+            <input type="text" placeholder="Type the word!" id="typebox" alt="Input Box" value="" class="typebox">
+            <button id="enter-button" class="button2">Enter</button>
+        </div>
+        <div>
+            <p id="display-text" class="text" style="display: none;">Type in your answer!</p>
+            <p id="timer" class="text">You will have 1 minute.</p>
+            <p id="missed" class="text" style="display: none;"></p>
+            <p id="all" class="text" style="display: none;"></p>
+            <div style="text-align: center"><button class="button" style="display: none;" id="finished">Finish</button></div>
+        </div>
+    </div>
+    <div style="text-align: center; padding-top: 5vh;">
+        <button style="" class="button" id="return-button">Home</button>
+    </div>
+</body>
+</html>
