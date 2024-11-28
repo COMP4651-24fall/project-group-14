@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COMP 4651 Project Homepage</title>
+    <link rel="icon" href="./images/clouds.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body class="main">
+    <div>
+        <h1 class="heading">COMP 4651 - Cloud Computing and Big Data Systems</h1>
+        <h1 class="heading">Spelling Bee</h1>
+    </div>
+    <div style="position: absolute; left: 50%; top: 45%; text-align: center; transform: translate(-50%, -45%);">
+        <p class="text">Are you ready?</p>
+        <button class="button" id="start-button">Yes!</button>
+    </div>
+</body>
+<script>
+    document.getElementById("start-button").addEventListener("click", () => {
+        window.open("./type.html", "_self");
+    })
+</script>
+</html>
