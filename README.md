@@ -1,6 +1,8 @@
 # COMP 4651 Course Project
 
-This is a project for COMP 4651 - Cloud Computing and Big Data Systems at HKUST. 
+This is a project for Group 14 of 2024 Fall COMP 4651 - Cloud Computing and Big Data Systems at HKUST. 
+
+The project report can be found [here](./report.pdf).
 
 # Installation & Running
 
